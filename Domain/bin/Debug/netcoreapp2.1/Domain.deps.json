@@ -1,0 +1,230 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "f281e23db1696b3703188b7d245f3ac477bb1473"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Domain/1.0.0": {
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Proxies": "2.1.4",
+          "Microsoft.NETCore.App": "2.1.0"
+        },
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
+      "AutoMapper/8.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/6.0.0": {
+        "dependencies": {
+          "AutoMapper": "8.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "Castle.Core/4.2.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "System.ComponentModel": "4.3.0",
+          "System.ComponentModel.TypeConverter": "4.3.0",
+          "System.Diagnostics.TraceSource": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Castle.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.2.1.0"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Proxies/2.1.4": {
+        "dependencies": {
+          "Castle.Core": "4.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Proxies.dll": {
+            "assemblyVersion": "2.1.4.0",
+            "fileVersion": "2.1.4.18263"
+          }
+        }
+      },
+      "Microsoft.NETCore.App/2.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostPolicy": "2.1.0",
+          "Microsoft.NETCore.Platforms": "2.1.0",
+          "Microsoft.NETCore.Targets": "2.1.0",
+          "NETStandard.Library": "2.0.3"
+        }
+      },
+      "Microsoft.NETCore.DotNetAppHost/2.1.0": {},
+      "Microsoft.NETCore.DotNetHostPolicy/2.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostResolver": "2.1.0"
+        }
+      },
+      "Microsoft.NETCore.DotNetHostResolver/2.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetAppHost": "2.1.0"
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.1.0": {},
+      "Microsoft.NETCore.Targets/2.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.0"
+        }
+      },
+      "System.ComponentModel/4.3.0": {},
+      "System.ComponentModel.Primitives/4.3.0": {
+        "dependencies": {
+          "System.ComponentModel": "4.3.0"
+        }
+      },
+      "System.ComponentModel.TypeConverter/4.3.0": {
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "System.ComponentModel.Primitives": "4.3.0"
+        }
+      },
+      "System.Diagnostics.TraceSource/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.0"
+        },
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kcbje0Y71XkvzPn8k6OROZGOn2SKaWimon3Bu1WUTVoV5GTJVym+k+zQuKApyyFVRfk7bisumj/qUX4xIIXS+Q==",
+      "path": "automapper/8.0.0",
+      "hashPath": "automapper.8.0.0.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EHxmLh6OuTuiGU3U+pHhNHwWOq1juK+Wbvr2n7Oj8/L819+DCnr7dtVtIGmBYHrle6foukEXqT5rcbRS9+CFyA==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/6.0.0",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512"
+    },
+    "Castle.Core/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tLlM4XU+aj0n8TdkiHHmV/48GpTuFEPQimFjHTZGD9XTWRCSLQcnB6rOftqaUSCXeBSbmWWEGeLPTLG3siTrcw==",
+      "path": "castle.core/4.2.1",
+      "hashPath": "castle.core.4.2.1.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Proxies/2.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gi9Pk0FkuOXdzlMCY0U6oqWPdgY1KyiO+cn0ynmpiUAlh17fD/rO06wav0MPrvTeEg0Le+1TazSZIkFMdYH2JA==",
+      "path": "microsoft.entityframeworkcore.proxies/2.1.4",
+      "hashPath": "microsoft.entityframeworkcore.proxies.2.1.4.nupkg.sha512"
+    },
+    "Microsoft.NETCore.App/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AvT774nTFgU8cYcGO9j1EMwuayKslxqYTurg32HGpWa2hEYNuW2+XgYVVNcZe6Ndbr84QX6fwaOZfd5n+1m2OA==",
+      "path": "microsoft.netcore.app/2.1.0",
+      "hashPath": "microsoft.netcore.app.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetAppHost/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f/47I60Wg3SrveTvnecCQhCZCAMYlUujWF15EQ/AZTqF/54qeEJjbCIAxKcZI8ToUYzSg6JdfrHggsgjCyCE9Q==",
+      "path": "microsoft.netcore.dotnetapphost/2.1.0",
+      "hashPath": "microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostPolicy/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p50yZYKzhH64lmArJgoKjtvsNehECa+/sAuOQzZh5uDNBTbRKxjN8IXP1e517xdVsgrFcSNxSEVDKZIOWVjGcQ==",
+      "path": "microsoft.netcore.dotnethostpolicy/2.1.0",
+      "hashPath": "microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostResolver/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fS9D8a+y55n6mHMbNqgHXaPGkjmpVH9h97OyrBxsCuo3Z8aQaFMJ5xIfmzji2ntUd/3truhMbSgSfIelHOkQpg==",
+      "path": "microsoft.netcore.dotnethostresolver/2.1.0",
+      "hashPath": "microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
+      "path": "microsoft.netcore.platforms/2.1.0",
+      "hashPath": "microsoft.netcore.platforms.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-etaYwrLZQUS+b3UWTpCnUggd6SQ/ZIkZ5pHnoR7+dIWt/wp2Rv3CvMKOZISsrt7FYCHKwCxfcepuuyEWkQxADg==",
+      "path": "microsoft.netcore.targets/2.1.0",
+      "hashPath": "microsoft.netcore.targets.2.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "System.ComponentModel/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
+      "path": "system.componentmodel/4.3.0",
+      "hashPath": "system.componentmodel.4.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+      "path": "system.componentmodel.primitives/4.3.0",
+      "hashPath": "system.componentmodel.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel.TypeConverter/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
+      "path": "system.componentmodel.typeconverter/4.3.0",
+      "hashPath": "system.componentmodel.typeconverter.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.TraceSource/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PXWAEqWXamctxvdYSlHY+HG0e++cVkg0FwiqtiOZ4Ziy31GD9uab2QAgkuDKUARcCdVq3DfruvdMnPfalEJbNw==",
+      "path": "system.diagnostics.tracesource/4.3.0",
+      "hashPath": "system.diagnostics.tracesource.4.3.0.nupkg.sha512"
+    }
+  }
+}

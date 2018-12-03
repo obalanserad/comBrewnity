@@ -1,0 +1,17 @@
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\bin\Debug\netcoreapp2.1\ComBrewnityV2.deps.json
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\bin\Debug\netcoreapp2.1\ComBrewnityV2.runtimeconfig.json
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\bin\Debug\netcoreapp2.1\ComBrewnityV2.runtimeconfig.dev.json
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\bin\Debug\netcoreapp2.1\ComBrewnityV2.dll
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\bin\Debug\netcoreapp2.1\ComBrewnityV2.pdb
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\bin\Debug\netcoreapp2.1\Domain.dll
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\bin\Debug\netcoreapp2.1\Domain.pdb
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.csprojAssemblyReference.cache
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.csproj.CoreCompileInputs.cache
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.RazorAssemblyInfo.cache
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.RazorAssemblyInfo.cs
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.AssemblyInfoInputs.cache
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.AssemblyInfo.cs
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.RazorTargetAssemblyInfo.cache
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.csproj.CopyComplete
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.dll
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.pdb
