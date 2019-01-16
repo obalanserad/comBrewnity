@@ -22,19 +22,29 @@ namespace ComBrewnityV2.DTOs.ViewModels
         public bool RememberMe { get; set; }
     }
 
+    
+
     public class RegistrationViewModel
     {
-        [Required]
-        [Display(Name = "Namn")]
-        public string FirstName { get; set; }
+        //[Required]
+        //[Display(Name = "Förnamn")]
+        //public string FirstName { get; set; }
 
-        [Required]
-        [Display(Name = "Efternamn")]
-        public string LastName { get; set; }
+        //[Display(Name = "Efternamn")]
+        //public string LastName { get; set; }
 
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+
+        [Required]
+        [Display(Name ="Username")]
+        public string UserName { get; set; }
+
+        [Required]
+        [Range(20,99, ErrorMessage = "Minimum age is 20")]
+        [Display(Name ="Age")]
+        public int Age { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
@@ -46,6 +56,8 @@ namespace ComBrewnityV2.DTOs.ViewModels
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        public bool Private { get; set; }
 
     }
 }

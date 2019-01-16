@@ -71,12 +71,12 @@ namespace ComBrewnityV2.Controllers
 
         // api/ver1/Post/DeletePost/6
         [HttpDelete("{id}", Name = "DeletePost")]
-        public IActionResult DeletePost(int id)
+        public IActionResult DeletePost(int id, string userId)
         {
 
             if (_postService.DeletePost(id))
             { 
-                List<PostDto> posts = _postService.GetAll();
+                List<PostDto> posts = _postService.GetAll(userId);
                 return Ok(posts);
             }
             else

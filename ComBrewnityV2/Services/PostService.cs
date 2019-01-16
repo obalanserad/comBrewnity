@@ -31,9 +31,9 @@ namespace ComBrewnityV2.Services
 
         }
 
-        public PostDto GetPost(int id)
+        public PostDto GetPost(int id, string guid)
         {
-            Post post = _context.Posts.Where(x => x.PostId == id).FirstOrDefault();
+            Post post = _context.Posts.First(x=>x.User.Id == guid && x.PostId == id);
             PostDto postDto = _mapper.Map<PostDto>(post);
             return postDto;
         }

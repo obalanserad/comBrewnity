@@ -9,6 +9,6 @@ namespace ComBrewnityV2.Interfaces
 {
     public interface IPostService
     {
-        List<PostDto> GetAll();
+        List<PostDto> GetAll(string userId);
     }
 }

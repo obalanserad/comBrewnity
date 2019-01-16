@@ -8,3 +8,4 @@ C:\Users\anton\ComBrewnityV2\Domain\obj\Debug\netcoreapp2.1\Domain.AssemblyInfoI
 C:\Users\anton\ComBrewnityV2\Domain\obj\Debug\netcoreapp2.1\Domain.AssemblyInfo.cs
 C:\Users\anton\ComBrewnityV2\Domain\obj\Debug\netcoreapp2.1\Domain.dll
 C:\Users\anton\ComBrewnityV2\Domain\obj\Debug\netcoreapp2.1\Domain.pdb
+C:\Users\anton\ComBrewnityV2\Domain\obj\Debug\netcoreapp2.1\Domain.csprojAssemblyReference.cache

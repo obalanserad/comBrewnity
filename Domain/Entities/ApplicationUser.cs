@@ -7,8 +7,8 @@ namespace Domain.Entities
 {
     public class ApplicationUser : IdentityUser<String>
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        //public string FirstName { get; set; }
+        //public string LastName { get; set; }
         public virtual ICollection<Post> Posts { get; set; }
         //public DateTime Created { get; set; }
     }
