@@ -15,3 +15,4 @@ C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2
 C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.csproj.CopyComplete
 C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.dll
 C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\ComBrewnityV2.pdb
+C:\Users\anton\ComBrewnityV2\ComBrewnityV2\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

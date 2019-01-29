@@ -37,21 +37,15 @@ namespace ComBrewnityV2
         }
 
         public IConfiguration Configuration { get; }
-        //private const string SecretKey = "iNivDmHLpUA223sqsfhqGbMRdRj1PVkH"; // todo: get this from somewhere secure
-        //private readonly SymmetricSecurityKey _signingKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(SecretKey));
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
-            //string SecretKey = Configuration["SecretKey"].ToString();
-
+        { 
             // configure strongly typed settings objects
-            var appSettingsSection = Configuration.GetSection("AppSettings");
-            services.Configure<AppSettings>(appSettingsSection);
+            string cryptic = Configuration["Secret"].ToString();
 
             // configure jwt authentication
-            var appSettings = appSettingsSection.Get<AppSettings>();
-            SymmetricSecurityKey _signingKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(appSettings.Secret));
+            SymmetricSecurityKey _signingKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(cryptic));
 
             // ===== Add our DbContext ========
             services.AddDbContext<ApplicationDbContext>(
