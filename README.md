@@ -18,6 +18,8 @@ https://rehansaeed.com/migrating-to-entity-framework-core-seed-data/
 
 http://www.tutorialsteacher.com/core/dependency-injection-in-aspnet-core
 
+https://code-maze.com/aspnetcore-webapi-best-practices/
+
 To store sensitive data:
 
 http://techxposer.com/2018/08/04/safely-storing-sensitive-configuration-data-net-core/
