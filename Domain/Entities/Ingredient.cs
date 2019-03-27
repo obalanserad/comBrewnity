@@ -11,31 +11,34 @@ using System.Text;
     {
         [Key]
         public int IngredientId { get; set; }
+        //ärver från BaseType
         public string Name { get; set; }
-        //public DateTime Created { get; set; }
+        //ärver från BaseType
         public string Manufacturer { get; set; }
+        //user anger
         public double Amount { get; set; }
+        //räknas ut innan den sparas
         public double? CalculatedProcent { get; set; }
+        //user anger
         public int? ContactTimeMinutes { get; set; }
+        //user anger
         public int? ContactTimeDays { get; set; }
+        //user anger
         public bool DryHop { get; set; } = false;
+        //user anger
         public bool InBoil { get; set; } = true;
+        //user anger
         public double? AlphaAcid { get; set; }
+        //user anger
         public int? EBC { get; set; }
+        //user anger
+        public int? IBU { get; set; }
+        //fältet man fyller i anger detta
         public virtual IngredientType Type { get; set; }
 
         public virtual Recipe Recipe { get; set; }
-        //public ICollection<IngredientRecipe> IngredientRecipes { get; set; }
+
     }
-
-    //public class IngredientRecipe
-    //{
-    //    public int IngredientId { get; set; }
-    //    public Ingredient Ingredient { get; set; }
-
-    //    public int RecipeId { get; set; }
-    //    public Recipe Recipe { get; set; }
-    //}
 
     public enum IngredientType
     {

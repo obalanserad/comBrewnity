@@ -21,6 +21,9 @@ namespace Domain
         //User
         public virtual DbSet<ApplicationUser> AppUsers { get; set; }
 
+        //Subscriptions
+        public virtual DbSet<Subscription> Subscriptions { get; set; }
+
         //Post
         public virtual DbSet<Post> Posts { get; set; }
         public virtual DbSet<Style> Styles { get; set; }
@@ -38,6 +41,19 @@ namespace Domain
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+
+            builder.Entity<UserSubscription>()
+            .HasKey(t => new { t.ApplicationUserId, t.SubscriptionId });
+
+            builder.Entity<UserSubscription>()
+                .HasOne(pt => pt.ApplicationUser)
+                .WithMany(p => p.UserSubscriptions)
+                .HasForeignKey(pt => pt.ApplicationUserId);
+
+            builder.Entity<UserSubscription>()
+                .HasOne(pt => pt.Subscription)
+                .WithMany(t => t.UserSubscriptions)
+                .HasForeignKey(pt => pt.SubscriptionId);
 
             builder.Entity<ApplicationUser>()
                 .HasMany(p => p.Posts)

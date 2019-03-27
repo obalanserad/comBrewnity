@@ -72,9 +72,7 @@ namespace ComBrewnityV2.Controllers
             {
                 UserName = model.UserName,
                 Email = model.Email,
-                //FirstName = model.FirstName,
-                //LastName = model.LastName
-                //Created = DateTime.UtcNow
+                Created = DateTime.UtcNow
             };
 
             IdentityResult result;

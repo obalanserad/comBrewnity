@@ -30,12 +30,24 @@ namespace ComBrewnityV2.Controllers
             _postService = postService;
         }
 
-        //api/ver1/Post/GetAll
-        public IActionResult GetAll(string userId)
+        public IActionResult GetAllSubscriptions(string userId)
         {
             try
             {
-                return Ok(_postService.GetAll(userId));
+                return Ok(_postService.GetAllSubscriptions(userId));
+            }
+            catch (Exception e)
+            {
+                throw new ApiDataException(3000, e.Message, HttpStatusCode.NoContent);
+            }
+        }
+
+        //api/ver1/Post/GetAllUserPosts
+        public IActionResult GetAllUserPosts(string userId)
+        {
+            try
+            {
+                return Ok(_postService.GetAllUserPosts(userId));
             }
             catch (Exception e)
             {
@@ -45,7 +57,7 @@ namespace ComBrewnityV2.Controllers
 
         // api/ver1/Post/GetPost/6
         [HttpGet("{id}", Name = "GetPost")]
-        public IActionResult GetPost(int id, string guid)
+        public IActionResult GetUserPost(int id, string guid)
         {
             try
             {
@@ -76,7 +88,7 @@ namespace ComBrewnityV2.Controllers
 
             if (_postService.DeletePost(id))
             { 
-                List<PostDto> posts = _postService.GetAll(userId);
+                List<PostDto> posts = _postService.GetAllUserPosts(userId);
                 return Ok(posts);
             }
             else

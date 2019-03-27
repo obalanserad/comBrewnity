@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using ComBrewnityV2.Interfaces;
 using ComBrewnityV2.Services;
 using Domain;
 using Domain.Entities;

@@ -26,13 +26,6 @@ namespace ComBrewnityV2.DTOs.ViewModels
 
     public class RegistrationViewModel
     {
-        //[Required]
-        //[Display(Name = "Förnamn")]
-        //public string FirstName { get; set; }
-
-        //[Display(Name = "Efternamn")]
-        //public string LastName { get; set; }
-
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
